@@ -27,10 +27,10 @@ class Component_Wordpress {
 			$wordpress_url = WP_URL;
 		}	
 
-		//require_once $wordpress_dir.'wp-config.php';
-		//require_once $wordpress_dir.'wp-load.php';
-		//define('WP_USE_THEMES', false);
-		//require_once $wordpress_dir.'wp-blog-header.php';
+		require_once $wordpress_dir.'wp-config.php';
+		require_once $wordpress_dir.'wp-load.php';
+		define('WP_USE_THEMES', false);
+		require_once $wordpress_dir.'wp-blog-header.php';
 	}
 
 
